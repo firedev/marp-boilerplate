@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"@marp-team/marp-cli": "^1.2.0"
+	},
+	"scripts": {
+		"index": "V=index yarn build:html && open index.html",
+		"build": "yarn run build:html && yarn run build:pdf && git add . && git commit && git push",
+		"build:html": "yarn run marp $V.md -o $V.html",
+		"build:pdf": "yarn run marp $V.md -o $V.pdf --pdf --allow-local-files",
+		"watch:html": "yarn build:html -w",
+		"watch:pdf": "yarn build:pdf -w"
+	}
+}
