@@ -12,19 +12,27 @@ https://marp.app/
 yarn
 ```
 
-## Demo 
+## Build
 
 ```
-yarn demo
+V=<FILENAME> yarn build
 ```
+
+## Demo
+
+```
+yarn index
+```
+* [index.html](index.html)
+* [index.pdf](index.pdf)
 
 ## Tasks
 
-You need to specify the filename to build using `V=` variable
+You need to specify the filename to build using `V=` variable.
 
-- `V=1 yarn build` - build HTML, PDF and push to Github Pages
-- `V=1 yarn watch:html` - continuously watch and build HTML 
+- `V=index yarn build` - build HTML, PDF and push to Github Pages
+- `V=index yarn watch:html` - continuously watch and build HTML
 - `yarn serve` - launches a webserver
-- `V=1 yarn build:pdf` - only build PDF
-- `V=1 yarn build:html` - only build HTML
+- `V=index yarn build:pdf` - only build PDF
+- `V=index yarn build:html` - only build HTML
 
