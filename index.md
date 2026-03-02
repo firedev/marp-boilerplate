@@ -5,14 +5,14 @@ backgroundColor: white
 style: |
   * { text-shadow: 0 0.0625rem white; }
   th { text-align: left; }
-  p { amrgin: 0 }
+  p { margin: 0 }
 ---
 
 <style scoped>
 * { text-align: center; }
 </style>
 
-![25% bg](https://firedev.com/images/logos/firedev.svg)
+![20% bg](https://firedev.com/images/logos/firedev.svg)
 
 #
 #
@@ -20,10 +20,11 @@ style: |
 #
 #
 #
+#
+#
+
 # Markdown Presentation Toolkit Boilerplate
 
 Fork this repo and start building your next presentation in markdown.
 
 :link: [`@firedev/marp-boilerplate`](https://github.com/firedev/marp-boilerplate)
-
-

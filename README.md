@@ -1,6 +1,8 @@
-# Markdown Presentation Toolkit Boilerplate
+# Marp Boilerplate
 
 Fork this repo and start building your next presentation in markdown.
+
+Uses [Marp CLI](https://github.com/marp-team/marp-cli) v4.
 
 ## Docs
 
@@ -10,12 +12,6 @@ https://marp.app/
 
 ```
 yarn
-```
-
-## Build
-
-```
-V=<FILENAME> yarn build
 ```
 
 ## Demo
@@ -28,11 +24,10 @@ yarn index
 
 ## Tasks
 
-You need to specify the filename to build using `V=` variable.
+Specify the filename to build using the `V=` variable.
 
 - `V=index yarn build` - build HTML, PDF and push to Github Pages
+- `V=index yarn build:html` - build HTML
+- `V=index yarn build:pdf` - build PDF
 - `V=index yarn watch:html` - continuously watch and build HTML
-- `yarn serve` - launches a webserver
-- `V=index yarn build:pdf` - only build PDF
-- `V=index yarn build:html` - only build HTML
-
+- `yarn serve` - launch a web server

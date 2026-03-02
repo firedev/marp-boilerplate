@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@marp-team/marp-cli": "^1.2.0"
+		"@marp-team/marp-cli": "^4.2.3"
 	},
 	"scripts": {
 		"index": "V=index yarn build:html && open index.html",
